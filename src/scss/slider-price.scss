@@ -1,0 +1,106 @@
+.swiper-container3 {
+    margin-top: 16px;
+    margin-left: 16px;
+    display: flex;
+   width: 300px;
+    min-width: 0;
+    height: 230px;
+  }
+  .swiper-slide__price {
+    width: 260px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    span {
+        color: $txtcolor;
+       
+    }
+   
+  }
+  .swiper-slide__footer {
+    display: flex;
+    justify-content: space-between;
+    button {
+        background-color: $BG_button;
+        width: 119px;
+        height: 32px;
+        border-radius: 16px;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: start;
+        padding-left: 10px;
+        background-image: url("../img/order.svg") ;
+        background-size: 7px 10px;
+        background-position: 80% center;
+        background-repeat: no-repeat;
+    }
+    p {
+        margin-left: -100px;
+        margin-top: 18px;
+    }
+  }
+  .swiper-pagination3 {
+    width: 100%;
+    text-align: center;
+  }
+  .swiper-pagination-bullet { 
+    width: 12px;
+    height: 12px;
+    background-color: #DDDDDD;
+  }
+  @media (min-width: 768px) { 
+    .slider-prise__media768 {
+      display: block;
+      margin: 16px;
+    }
+   .slider-prise__items {
+   
+   
+   }
+.slider-prise__item {
+  font-size: 14px;
+  padding-left: 16px;
+   
+  display: flex;
+  height: 100px;
+  border-bottom:1px solid #EAEAEA ;
+  background-color: white;;
+  p { width: 50%;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+  div { width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  span {width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  button {
+    background-color: $BG_button;
+    width: 119px;
+    height: 32px;
+    border-radius: 16px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: start;
+    padding-left: 10px;
+    background-image: url("../img/order.svg") ;
+    background-size: 7px 10px;
+    background-position: 80% center;
+    background-repeat: no-repeat;
+}
+
+}   
+.slider-prise__item:first-child {
+  color: $txtcolor;
+  background-color: #F8F8F8;
+  text-align: start;
+  height: 50px;
+}
+   
+  }

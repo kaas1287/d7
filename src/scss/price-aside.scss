@@ -1,0 +1,24 @@
+.prise-aside {
+    margin-left: 24px;
+    margin-right: 16px;
+    color: #1B1C21;
+    button {
+        width: 195px;
+        height: 55px;
+        text-align: start;
+        font-size: 16px;
+        background-image: url("../img/icon.svg") ;
+  background-size: 11px 11px;
+  background-position: 60% 73%;
+  background-repeat: no-repeat;
+    }
+}
+@media (min-width: 768px) { 
+    .prise-aside {
+        max-width: 450px;
+        button{
+            width: 317px;
+            background-position: 95% 50%;
+        }
+    }
+}

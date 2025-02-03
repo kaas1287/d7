@@ -1,0 +1,104 @@
+.top-menu{
+        display: flex;
+        background-color: white;
+        height: 88px;
+        align-items: center;
+}
+.left-menu {
+    height: 40px;
+    button {
+        background-color: $BG_button;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-left: 8px;
+    }
+    .left-menu__button_menu{
+        background-image: url("../img/menu.svg") ;
+        background-size: 16px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    } 
+}
+
+.top-menu__logo{
+    margin-left: 10px;
+    margin-top: -6px;
+    margin-right: auto;
+    width: 96px;
+    height: 50px;
+}
+.midl-menu {
+    display: none;
+    padding-right: 5px;
+    height: 40px;
+    width: 185px;
+
+    button {
+        background-color: $BG_button;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-left: 16px;
+        
+    }
+    .midl-menu__button_phone{
+        background-image: url("../img/phone.svg") ;
+        background-size: 16px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    } 
+    .midl-menu__button_mesage{
+        background-image: url("../img/mesage.svg") ;
+        background-size: 16px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    } 
+    .midl-menu__button_profile{
+        background-image: url("../img/profile.svg") ;
+        background-size: 16px;
+        background-position: center center;
+        background-repeat: no-repeat; 
+    } 
+}
+.right-menu {
+    height: 40px;
+    padding-right: 24px;
+    border-left: 2px solid $borderColor;
+    button {
+        background-color: $BG_button;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-left: 16px;
+    }
+    .right-menu__button_repair{
+        background-image: url("../img/repair.svg") ;
+        background-size: 16px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    } 
+    .right-menu__button_search{
+        background-image: url("../img/search.svg") ;
+        background-size: 16px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    } 
+}
+@media (min-width: 768px) {
+    .midl-menu {
+      display: flex;
+    }
+    .left-menu {
+        padding-right: 20px;
+        margin-left: 8px;
+        height: 40px;
+        border-right: 2px solid $borderColor;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header-main-top {
+      display: none;
+    }
+}

@@ -1,0 +1,15 @@
+.footer-main {
+    height: 130px;
+    color: #7E7E82;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 14px;
+}
+@media (min-width: 768px) { 
+    .footer-main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    } 
+}

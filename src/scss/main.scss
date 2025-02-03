@@ -1,0 +1,156 @@
+.title {
+    margin-top: 24px;
+    
+    h1 {
+    border-left: 4px solid #41F6D7;
+    padding-left: 16px;
+    }
+}
+.main-article__title {
+  display: flex;
+  margin-top: 42px;
+  height: 40px;
+  width: 100%;
+
+}
+
+
+.main-article__title > h1 {
+  margin-left: 50px;
+}
+.main-article__button {
+  display: flex;
+  height: 40px;
+  margin-left: auto;
+  margin-right: 24px;
+}
+.main-article__button > span {
+
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.main-article__button > button{
+  margin-right: 40px;
+  background-color: #FF3E79;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+.main-article__button_repair-icon {
+  background-image: url("../img/repair.svg") ;
+
+  background-size: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.scroll-menu {
+    height: 50px;
+    margin-top: 24px;
+    margin-left: 16px;
+    overflow-y: hidden;
+    
+  
+  .scroll-menu__items  {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 16px;
+    li{
+        color: #7E7E82;
+      }
+  }
+ 
+  .scroll-menu__item  {
+   
+    margin-left: 8px;
+    color: #424242;
+    width: auto;
+    padding: 5px 15px 5px 15px;
+   
+  
+  }
+  .scroll-menu__item:hover {
+    font-size: 16px;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    color: #424242;
+  
+  
+    text-decoration: none;
+    background-color: #Fff;
+  }
+}
+.main-article {
+  margin-left: 24px;
+  margin-right: 10px;
+}
+.main-article__reed-more{
+  width: 134px;
+  height: 24px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: flex-start;
+
+
+button{
+  background-image: url("../img/reed_more.svg") ;
+  background-color: #F8F8F8;
+  width: 134px;
+  height: 24px;
+  background-size: 10px;;
+  background-position: left center;
+  background-repeat: no-repeat;
+  }
+
+} 
+.CPS-photo {
+
+
+ 
+  margin-top: 22px;
+  img {
+    width: 95%;
+
+    height: 100%;
+    
+    max-height: 307px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-article__wrap {
+    display: flex;
+    .main-article__content {
+      margin-top: 24px;
+      width: 50%;
+      margin-right: 5%;
+    }
+    .main-article__reed-more {
+      margin-top: 24px;
+    }
+    p {
+      display: inline;
+    }
+    .CPS-photo {
+      width: 50%;
+    }
+  } 
+}
+
+@media (min-width: 1440px) {
+  .main-article__wrap { 
+    span {
+    display: inline;
+  }
+}
+.title1440 {
+  display: flex;
+  align-items: center;
+}
+
+}
